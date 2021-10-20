@@ -1,4 +1,4 @@
-rollMean <- function(vec, len, partial = FALSE, method=mean, skip.na=F) {
+rollMean <- function(vec, len, partial = FALSE, method = mean, skip.na = F) {
   len <- floor(len)
   tmp <- 0
   if (len > length(vec)) {
