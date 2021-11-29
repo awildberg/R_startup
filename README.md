@@ -4,7 +4,7 @@ add to `~/.Rprofile` to load on startup
 
 ## convSuffix
 
-converts m/k/g in number-strings in vectors to full numbers, e.g. 323.4k to 323400
+converts m/k/g in number-string-vectors to full numbers, e.g. 323.4k to 323400
 
 ## rollMean
 
