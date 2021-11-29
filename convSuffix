@@ -1,11 +1,16 @@
 # convert 3M or 3K to 3000000 and 3000
 convSuffix <- function(str_vec){
 
-  m <- grep("m|M",str_vec);
-  k <- grep("k|K",str_vec);
-  z <- grep("[0-9]$",str_vec);
-  str_vec <- gsub("[^0-9.-]","",str_vec);
-  tmp[c(m,k,z)] <- c( paste0(str_vec[m],"e6"), paste0(str_vec[k],"e3"), str_vec[z] );
-  as.numeric(tmp)
+  nn <- grep( ".*[:alpha:].+", str_vec )
+  if( length(nn)>0 ){ return(c("Malformed number in string,",str_vec[nn])); stop() }
   
+  out <- vector();
+  m <- grep( "m",str_vec, ignore.case=T );
+  k <- grep( "k",str_vec, ignore.case=T );
+  n <- grep( "(^-?[0-9]+\\.*[0-9]+$)|(^[0-9]+\\.*[0-9]+$)", str_vec )
+
+  str_vec <- gsub( "[^0-9.-]", "", str_vec );
+  out[c(m,k,n)] <- c( paste0(str_vec[m],"e6"), paste0(str_vec[k],"e3"), str_vec[n] );
+  as.numeric(out)
+
 }
