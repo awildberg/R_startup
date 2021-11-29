@@ -12,3 +12,4 @@ convSuffix <- function(str_vec){
   as.numeric( sub("g$","e9",str_vec, ignore.case=T))
 
 }
+message("Loaded convSuffix()")
