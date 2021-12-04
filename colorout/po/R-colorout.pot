@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: colorout 1.2-0\n"
+"POT-Creation-Date: 2018-06-04 16:27\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "The R output will not be colorized because it seems that your terminal does not support ANSI escape codes."
+msgstr ""
+
+msgid "Not in an interactive session."
+msgstr ""
+
+msgid "isatty(stdout()) returned FALSE."
+msgstr ""
+
+msgid "Sys.getenv('TERM') returned '%s'."
+msgstr ""
+
+msgid "The output colorization was canceled."
+msgstr ""
+
+msgid "The value of '%s' must be either a number correspoding to an ANSI escape code or a character string."
+msgstr ""
+
+msgid "'%s' must be a character vector of length 1"
+msgstr ""
+
+msgid "'%s' must have no more than 63 characters."
+msgstr ""
+
+msgid "'%s' must be a number vector of at most 3 elements."
+msgstr ""
+
+msgid "z must be a real number."
+msgstr ""
