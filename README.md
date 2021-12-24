@@ -25,3 +25,7 @@ rolling mean/median etc with several mods e.g. partial to get a full list withou
 by https://github.com/brooksandrew
 
 extends `aggregate` to work on several columns with several functions.
+
+## cbind.fill
+
+cbind uneven matrices or DFs
