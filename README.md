@@ -1,4 +1,4 @@
-# R_startup
+# R_startup / julia_startup
 
 add to `~/.Rprofile` to load on startup
 
