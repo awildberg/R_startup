@@ -42,3 +42,7 @@ summarise Vectors and return values, counts and proportions
 ### sample_rng
 
 sample function with replace=true/false
+
+### fillmissing
+
+fills missing values in Vectors with either previous (:up) or following (:down) non-missing value
