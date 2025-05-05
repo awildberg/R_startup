@@ -10,7 +10,7 @@ R CMD INSTALL colorout
 
 ## drop_na
 
-decide if dropping rows with *any* NA or *all* NA
+decide if dropping rows with *any* NA or *all* NA. Feature extension of original `tidyr::drop_na`
 
 ## convSuffix
 
